@@ -1,5 +1,5 @@
 # Dissertation
-###This repository is Dedicated to the Master's Thesis in the Univercity of Piraeus department of informatics 
+###This repository is Dedicated to the Master's Thesis in the University of Piraeus, department of informatics 
 
 In this Dissertation, we introduce an android application and it’s stack (back-end and database). This app, can perform auto check-in and save the location of the user in a database. Also, it can display the location that has been saved in a Calendar and on Google Map.
 The technologies that has been selected for the back-end platform are node.js and mongodb. This is a perfect much for this application because all the back – end platform uses the same programming language, JavaScript. In addition, this stack is very popular for creating the back – end API for android or in general in mobile applications and web applications, because it uses JSON format that is very easy to be parsed from the client. 
