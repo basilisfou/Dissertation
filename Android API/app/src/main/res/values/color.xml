@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#ffe541</color>
+    <color name="ColorPrimaryDark">#ffd147</color>
+    <color name="SelectMonthColor">#c7ca91</color>
+    <color name="SelectedWeekColor">#9bab7e</color>
+    <color name = "buy_button">#4baceb</color>
+    <color name = "register_button">#dd5b25</color>
+    <color name = "forget_button">#2f815b</color>
+    <color name="white">#fff</color>
+</resources>

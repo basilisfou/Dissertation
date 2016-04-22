@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/cp_username"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:lines="2"
+        android:hint="@string/hit_username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/cp_email"
+        android:layout_below="@+id/cp_username"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:lines="2"
+        android:hint="@string/hint_email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/cp_oldPassword"
+        android:layout_below="@+id/cp_email"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:lines="2"
+        android:hint="give old password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/cp_newPassword"
+        android:layout_below="@+id/cp_oldPassword"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:lines="2"
+        android:hint="@string/hint_pass"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:id="@+id/cp_changePassword"
+        android:layout_below="@+id/cp_newPassword"
+        android:background="@drawable/forgot_password_background_button"
+        android:layout_margin="10dp"/>
+
+
+</RelativeLayout>

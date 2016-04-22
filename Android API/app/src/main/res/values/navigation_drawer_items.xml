@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- parents -->
+    <string-array name="titles">
+        <item>Account</item>
+        <item>Sign Out</item>
+        <item>Map</item>
+        <item>Timeline</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="icons">
+        <item>@drawable/nv_account</item>
+        <item>@drawable/sign_out</item>
+        <item>@drawable/geofence</item>
+        <item>@drawable/calendar</item>
+        <item>@drawable/nv_about</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:id="@+id/ll_layout">
+        <!-- up bar -->
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:id="@+id/edit_box_name"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:layout_below="@+id/ll_layout"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_surname"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:layout_below="@+id/edit_box_name"
+        android:id="@+id/edit_box_surname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/hint_email"
+        android:lines="2"
+        android:layout_below="@+id/edit_box_surname"
+        android:layout_margin="10dp"
+        android:id="@+id/edit_box_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hit_username"
+        android:layout_below="@+id/edit_box_email"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:id="@+id/edit_box_username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pass"
+        android:lines="1"
+        android:inputType="textPassword"
+        android:layout_below="@+id/edit_box_username"
+        android:layout_margin="10dp"
+        android:id="@+id/edit_box_pass"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Register"
+        android:id="@+id/buttonSignUp"
+        android:background="@drawable/login_background_button"
+        android:layout_below="@+id/edit_box_pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Reset"
+        android:lines="1"
+        android:layout_centerInParent="true"
+        android:id="@+id/buttonReset"
+        android:background="@drawable/register_background_button"
+        android:layout_below="@+id/buttonSignUp"
+        />
+</RelativeLayout>
